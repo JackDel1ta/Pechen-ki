@@ -4,7 +4,7 @@ HEADERS = {"User-Agent": "MySearchTool/1.0 (educational project)"}
 
 # ---------- GitHub ----------
 def search_github(name):
-    """Профили GitHub."""
+    """Публичные профили GitHub."""
     url = "https://api.github.com/search/users"
     params = {"q": name}
     headers = {**HEADERS, "Accept": "application/vnd.github+json"}
