@@ -12,4 +12,4 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: echo "Камавов Алим Биймурадович" | python main.py
+      - run: echo "ProtocAV0" | python main.py
